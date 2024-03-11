@@ -1,1 +1,51 @@
+body {
+    background-color: black; /* Set the background color of the body to black */
+}
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
 
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white
+}
+
+.timer {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.content {
+    margin-bottom: 10px;
+}
+
+#startButton, #resetButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#startButton {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#resetButton {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#startButton:hover, #resetButton:hover {
+    opacity: 0.8;
+}
